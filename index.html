@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A layout example that shows off a blog page with a list of posts.">
+    <title>Blog &ndash; Layout Examples &ndash; Pure</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+    
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+    <!--<![endif]-->
+    
+    
+        <!--[if lte IE 8]>
+            <link rel="stylesheet" href="css/layouts/blog-old-ie.css">
+        <![endif]-->
+        <!--[if gt IE 8]><!-->
+            <link rel="stylesheet" href="css/layouts/blog.css">
+        <!--<![endif]-->
+    <script src="https://s23.cnzz.com/z_stat.php?id=1275638344&web_id=1275638344" language="JavaScript"></script>    
+</head>
+<body>
+
+
+<div id="layout" class="pure-g">
+    <div class="sidebar pure-u-1 pure-u-md-1-5">
+        <div class="header">
+            <h1 class="brand-title">NoFootBird</h1>
+            <h3 class="brand-tagline">飞鸟</h3>
+
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a class="pure-button" href="http://purecss.io">全部</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="pure-button" href="profile.html">关于我</a>
+                    </li>
+                    <li style="margin-top: 3em;">
+                        <img src="img/gz_qr_code.jpg" style="width:160px;height:160px"/>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="content pure-u-1 pure-u-md-4-5">
+        <div>
+            <!-- A wrapper for all the blog posts -->
+            <div class="posts">
+                <h1 class="content-subhead">置顶</h1>
+
+                <!-- A single blog post -->
+                <section class="post">
+                    <header class="post-header">
+                        <img width="48" height="48" alt="Tilo Mitra&#x27;s avatar" class="post-avatar" src="img/gz_qr_code.jpg">
+
+                        <a href="base_static_blog_01.html"><h2 class="post-title">如何搭建一个高逼格静态的个人技术博客</h2></a>
+
+                        <p class="post-meta">
+                            By <a href="#" class="post-author">NoFootBird</a> under 
+                            <a class="post-category post-category-design" href="#">CSS</a> 
+                            <a class="post-category post-category-pure" href="#">Pure</a>
+                            <a class="post-category post-category-pure" href="#">github.io</a>
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>
+                            除了基于vps，或者低配的ecs搭建个人技术博客，github也给了我们一个不错的选择，不用担心域名注册，不用担心服务器的问题，只要你有一些基本的html知识即可，或者基于类似hexo等博客模板也能帮我们解决一些问题，但这里我准备强撸一个 ，<a href="jd_selenium_slidebar_01.html">详细</a>。
+                        </p>
+                    </div>
+                </section>
+            </div>
+
+            <div class="posts">
+                <h1 class="content-subhead">最近</h1>
+
+                <section class="post">
+                    <header class="post-header">
+                        <img width="48" height="48" alt="Eric Ferraiuolo&#x27;s avatar" class="post-avatar" src="img/gz_qr_code.jpg">
+
+                        <a href="cronsun_01.html"><h2 class="post-title">如何基于golang/etcd打造一个高可靠的分布式任务框架</h2></a>
+
+                        <p class="post-meta">
+                            By <a class="post-author" href="#">NoFootBird</a> under 
+                            <a class="post-category post-category-js" href="#">golang</a>
+                            <a class="post-category post-category-js" href="#">etcd</a>
+                            <a class="post-category post-category-js" href="#">分布式</a>
+                            <a class="post-category post-category-js" href="#">高容错</a>
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>
+                            市面上关于分布式定时调度的框架很多，有针对业务方面的调度，有针对大数据平台资源调度，不同的语言皆有不同的实现框架，比如elastic-job是java语言开发的代表,celery是python语言的代表，当然我今天要讲的是基于golang开发的cronsun框架，<a href="jd_selenium_slidebar_01.html">详细</a>。
+                        </p>
+                    </div>
+                </section>
+
+                <section class="post">
+                    <header class="post-header">
+                        <img width="48" height="48" alt="Reid Burke&#x27;s avatar" class="post-avatar" src="img/gz_qr_code.jpg">
+
+                        <h2 class="post-title">如何高效部署并入门airflow</h2>
+
+                        <p class="post-meta">
+                            By <a class="post-author" href="#">NoFootBird</a> under 
+                            <a class="post-category" href="#">etl</a>
+                            <a class="post-category" href="#">大数据</a>
+                            <a class="post-category" href="#">dag</a>
+                            <a class="post-category" href="#">工作流</a>
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <div class="post-images pure-g">
+                            <div class="pure-u-1 pure-u-md-1-2">
+                                <a href="http://www.flickr.com/photos/uberlife/8915936174/">
+                                    <img alt="Photo of someone working poolside at a resort"
+                                         class="pure-img-responsive"
+                                         src="http://farm8.staticflickr.com/7448/8915936174_8d54ec76c6.jpg">
+                                </a>
+
+                                <div class="post-image-meta">
+                                    <h3>CSSConf Photos</h3>
+                                </div>
+                            </div>
+
+                            <div class="pure-u-1 pure-u-md-1-2">
+                                <a href="http://www.flickr.com/photos/uberlife/8907351301/">
+                                    <img alt="Photo of the sunset on the beach"
+                                         class="pure-img-responsive"
+                                         src="http://farm8.staticflickr.com/7382/8907351301_bd7460cffb.jpg">
+                                </a>
+
+                                <div class="post-image-meta">
+                                    <h3>JSConf Photos</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="post">
+                    <header class="post-header">
+                        <img width="48" height="48" alt="Andrew Wooldridge&#x27;s avatar" class="post-avatar" src="img/gz_qr_code.jpg">
+
+                        <a href="jd_selenium_slidebar_01.html"><h2 class="post-title">教你如何破解京东滑块登陆(实时跟进最新解决方案)</h2></a>
+
+                        <p class="post-meta">
+                            By <a class="post-author" href="#">NoFootBird</a> under <a class="post-category post-category-yui" href="#">selenium</a>
+                            <a class="post-category post-category-yui" href="#">scrapy</a>
+                            <a class="post-category post-category-yui" href="#">python</a>
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>
+                            对于带身份的网站，网站开发者会考虑到各种防爬的策略来限制你的频繁登陆，更多的防止机器人抓取，而滑块验证是目前比较常用的手段之一，而今天说的主角就是京东的滑块验证码，这篇文章我将手把手教你如何攻防，<a href="jd_selenium_slidebar_01.html">详细</a>。
+                        </p>
+                    </div>
+                </section>
+            </div>
+
+            <div class="footer">
+                <div class="pure-menu pure-menu-horizontal">
+                    <ul>
+                        <li class="pure-menu-item"><a href="http://purecss.io/" class="pure-menu-link">About</a></li>
+                        <li class="pure-menu-item"><a href="http://twitter.com/yuilibrary/" class="pure-menu-link">weibo</a></li>
+                        <li class="pure-menu-item"><a href="https://github.com/BigDataMatrix" class="pure-menu-link">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+</body>
+</html>
